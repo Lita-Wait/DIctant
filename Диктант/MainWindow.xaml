@@ -1,0 +1,19 @@
+﻿<Window x:Class="Диктант.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Диктант"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="400" Width="300">
+    <Grid>
+        <Button x:Name="buttonLog"  Content="Войти" HorizontalAlignment="Left" Margin="32,295,0,0" VerticalAlignment="Top" Width="230" FontSize="14" Click="buttonLog_Click"/>
+        <Label x:Name="label" Content="Авторизация&#xD;&#xA;" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="16" Height="30" Margin="89,72,92,0" Width="111"/>
+        <TextBox x:Name="tbLogin" HorizontalAlignment="Left" Height="23" Margin="32,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="14" SpellCheck.IsEnabled="True"/>
+        <PasswordBox PasswordChar="*" x:Name="tbPass" HorizontalAlignment="Left" Height="23" Margin="32,233,0,0" VerticalAlignment="Top" Width="230" FontSize="14"/>
+        <Label x:Name="label1" Content="Логин" HorizontalAlignment="Left" Margin="32,142,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label x:Name="label2" Content="Пароль" HorizontalAlignment="Left" Margin="32,202,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Name="ErrorLabel" HorizontalAlignment="Left" Margin="32,261,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
