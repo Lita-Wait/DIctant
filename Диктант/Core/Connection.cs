@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Магазин_одежды.Core
 {
+    using Диктант.MVVM.Model;
+
     public static class Connection
     {
-        //ublic static AtelierModel AtelierModel { get; set; } 
+        public static LiterateModel LiterateModel { get; set; } 
     }
 }
